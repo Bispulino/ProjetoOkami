@@ -5,35 +5,71 @@
 
 body {
     font-family: roboto;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
+}
+
+header p {
+    display: block;
+    margin-top: 2%;
+    text-align: center;
+    overflow: auto;
 }
 
 .kabuce {
-    height: 550px;
+    height: 1000px;
     background-position: center;
     background-size: cover;
     border-top: 1px solid transparent;
 }
 .conteudo_kabuce {
-    display:block;
+    display: block;
+    height: auto;
     text-align: center;
-    color:rgb(224, 224, 224);
-    
-    
+    color:rgb(255, 255, 255);   
 }
+
+.kabuce nav ul {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    right: 45px;
+}
+
+.kabuce ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.kabuce nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: century gothic;
+    font-size:12px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.kabuce nav a:hover {
+    font-style: italic;
+    font-weight: 800;
+}
+
 
 .okami {
     font-family: century gothic;
-    font-size: 95px;
+    font-size: 180px;
     letter-spacing: 5px;
-    margin-top: 8%;
+    margin-top: 15%;
+    text-align: center;
     
 }
 
 .mkt {
-    margin-top: -75px;
+    margin-top: -100px;
     font-family: century gothic;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 main {
@@ -67,8 +103,19 @@ main {
    
 }
 
-.section-bg {
-    background-color: rgba(128, 128, 128, 0.151);
+.card p:hover {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 3%;
+    letter-spacing: 2px;
+    font-weight: 400;
+   transition: 0.25s;
+   font-style: italic;
+}
+
+.section-bg {   
     padding: 15px;
     margin-top: 15px;
     overflow: auto;
@@ -82,31 +129,6 @@ p {
     color: white;
 }
 
-.kabuce nav ul {
-    text-align: right;
-    margin: 20px 50px 0px 0px;
-}
-
-.kabuce ul li {
-    display: inline-block;
-    list-style: none;
-}
-
-.kabuce nav a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: century gothic;
-    font-size:12px;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-.kabuce nav a:hover {
-    font-weight: 1000;
-}
-
 .titulo_artigo {
 display: block;
 background-color: rgb(32, 32, 32);
@@ -116,11 +138,6 @@ text-transform: uppercase;
 text-align: center;
 }
 
-header p {
-    display: block;
-    margin-top: 2%;
-    text-align: center;
-}
 
 footer {
     background-color: rgb(255, 255, 255);
