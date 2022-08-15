@@ -1,0 +1,107 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    font-family: roboto;
+    background-color: rgb(5, 5, 5);
+}
+
+.kabuce {
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.conteudo_kabuce {
+    display:block;
+    text-align: center;
+    color:rgb(224, 224, 224);
+    
+    
+}
+
+.okami {
+    font-family: century gothic;
+    font-size: 95px;
+    letter-spacing: 5px;
+    margin-top: 8%;
+    
+}
+
+.mkt {
+    margin-top: -75px;
+    font-family: century gothic;
+    font-size: 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.section-bg {
+    background-color: rgba(128, 128, 128, 0.151);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+h2{
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.kabuce nav ul {
+    text-align: right;
+    margin: 20px 50px 0px 0px;
+}
+
+.kabuce ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.kabuce nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: century gothic;
+    font-size:12px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.kabuce nav a:hover {
+    font-weight: 1000;
+}
+
+.titulo_artigo {
+display: block;
+background-color: rgb(32, 32, 32);
+padding: 1%;
+margin: -0.5%;
+text-transform: uppercase;
+text-align: center;
+}
+
+header p {
+    display: block;
+    margin-top: 2%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    margin: 1% -1% -1% -1%;
+}
+
+footer p {
+color: black;
+text-align: center;
+}
