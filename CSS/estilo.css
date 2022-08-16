@@ -29,8 +29,9 @@ header p {
 
 .kabuce nav ul {
     width: 100%;
+    text-align: right;
     position: fixed;
-    left: 65%;
+    right: 45px;
 }
 
 .kabuce ul li {
